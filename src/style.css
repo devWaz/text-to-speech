@@ -37,7 +37,15 @@ body {
 h1 {
   font-family: MabryProBold;
   text-align: center;
-  /* margin-bottom: 1rem; */
+  margin-bottom: .5rem;
+}
+
+/* .text-section {
+  border: 1px solid red;
+} */
+
+.text-section label {
+  color: grey;
 }
 
 textarea {
@@ -45,12 +53,29 @@ textarea {
   outline: none;
   border: 2px solid black;
   border-radius: 5px;
+  width: 100%;
+  margin-top: .5rem;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: .5rem;
+  outline: none;
+}
+
+.buttons {
+  border: 1px solid;
 }
 
 button {
   padding: .7rem;
   background-color: #ff90e8;
   border: none;
+  color: black;
   border-radius: 5px;
   box-shadow: 2.5px 3.5px 0px 0px #000;
 }
@@ -71,5 +96,6 @@ button:focus{
 
   .container {
     padding: 1rem;
+    /* height: 50vh; */
   }
 }

@@ -5,13 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
       <h1>Text to Speech</h1>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Enter text"></textarea>
-      <button>Convert to Speech</button>
+      <div class="text-section">
+        <label for="">Enter text</label>
+        <textarea cols="30" rows="10"></textarea>
+      </div>
+      <div class="text-section">
+        <label for="">Choose voice</label>
+        <select name="" id="">
+        </select>
+      </div>
+        <button>Convert to Speech</button>
     </div>  
   </body>
   <script type="module" src="/src/main.ts"></script>
